@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Table</h1>
+    </header>
+    <main>
+      <section>
+        <p>Enter Number Of Table.</p>
+        <div class="input-group">
+          <label for="row-input"
+            >Rows:<input type="number" id="row-input" /></label
+          >
+          <label for="col-input"
+            >Columns:<input type="number" id="col-input" />
+          </label>
+          <button id="create-btn">Table</button>
+        <div class="table-container">
+          <table id="table-element"></table>
+        </div>
+        <div>
+          <h2 id="msg"></h2>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
